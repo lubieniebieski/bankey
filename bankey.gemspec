@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Bankey::VERSION
   gem.authors       = ["Adam Nowak"]
   gem.email         = ["lubieniebieski@gmail.com"]
-  gem.description   = %q{get given characters from your password }
+  gem.description   = %q{get given characters from your password}
   gem.summary       = %q{I was bored by figuring out 3rd, 4th, 8th and xth character from my password when I was attempting to login to my bank account. so here we are...}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/lubieniebieski/bankey"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

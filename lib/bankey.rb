@@ -1,5 +1,4 @@
+require 'io/console'
+require "bankey/cli"
+require "bankey/presenter"
 require "bankey/version"
-
-module Bankey
-  # Your code goes here...
-end

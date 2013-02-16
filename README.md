@@ -1,24 +1,26 @@
 # Bankey
 
-TODO: Write a gem description
+get given characters from your password
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'bankey'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+install it yourself as:
 
     $ gem install bankey
 
 ## Usage
 
-TODO: Write usage instructions here
+just do:
+
+    $ bankey
+
+and you will do something like this (your input won't be echoed):
+
+    Enter your password/input string:
+    Which characters do you need? [space is a separator]:
+    1 3 7 8
+       1 -> 3 -> 7 -> 8
+       m -> s -> t -> p
 
 ## Contributing
 
