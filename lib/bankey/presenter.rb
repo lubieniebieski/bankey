@@ -27,6 +27,5 @@ module Bankey
     def missing_numbers_error
       ArgumentError.new("we need some real numbers here")
     end
-
   end
 end
