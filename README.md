@@ -1,6 +1,7 @@
 # Bankey
 
 [![](https://img.shields.io/gem/v/bankey.svg?style=flat-square)](https://rubygems.org/gems/bankey)
+[![](http://img.shields.io/codeclimate/github/lubieniebieski/bankey.svg?style=flat-square)](https://codeclimate.com/github/lubieniebieski/bankey)
 [![](http://img.shields.io/gemnasium/lubieniebieski/bankey.svg?style=flat-square)](https://gemnasium.com/lubieniebieski/bankey)
 
 Get given characters from your password / text
