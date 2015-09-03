@@ -1,20 +1,23 @@
 # Bankey
 
-get given characters from your password
+[![](https://img.shields.io/gem/v/bankey.svg?style=flat-square)](https://rubygems.org/gems/bankey)
+[![](http://img.shields.io/gemnasium/lubieniebieski/bankey.svg?style=flat-square)](https://gemnasium.com/lubieniebieski/bankey)
+
+Get given characters from your password / text
 
 ## Installation
 
-install it yourself as:
+Install it yourself as:
 
     $ gem install bankey
 
 ## Usage
 
-just do:
+Just do:
 
     $ bankey
 
-and you will do something like this (your input won't be echoed):
+And you will do something like this (your input won't be echoed):
 
     Enter your password/input string:
     Which characters do you need? [space is a separator]:
