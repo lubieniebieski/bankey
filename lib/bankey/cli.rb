@@ -22,17 +22,19 @@ module Bankey
     private
 
     def prepare_data
-      print "Enter your password/input string: \n"
-      input_string = STDIN.noecho(&:gets)
-      print "Which characters do you need? [space is a separator]: \n"
+      print "Enter your password/input string (press ENTER when you finish): \n"
+      input_string = ""
+      begin
+        input_string += STDIN.getch
+        print "*"
+      end while(input_string[-1] != "\r")
+      print "\nWhich characters do you need? [space is a separator]: \n"
       characters = gets.split
       [input_string, characters]
     end
 
     def get_result input, characters
-      puts
       Bankey::Presenter.new(input, characters).show_chars
     end
-
   end
 end
